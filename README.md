@@ -1,17 +1,27 @@
-# React + Vite
+**Project Overview**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A robust MERN-based financial management system designed for seamless expense tracking. This application features secure JWT authentication, real-time data visualization, and comprehensive reporting tools, all wrapped in a fully responsive, mobile-first interface.
 
-Currently, two official plugins are available:
+**Key Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Secure Authentication**: Implements robust login and registration flows protected by JSON Web Tokens (JWT).
 
-## React Compiler
+- **Executive Dashboard**: A real-time financial snapshot displaying Total Balance, Income, and Expense aggregates via summary cards.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Income Management**: Full CRUD (Create, Read, Update, Delete) capabilities for revenue streams with integrated export options.
 
-## Expanding the ESLint configuration
+- **Expense Tracking**: Granular logging of daily spending with category-based organization and management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# expenseTracker" 
+- **Dynamic Visualization**: Insightful analytics powered by interactive Bar, Pie, and Line charts to identify spending trends.
+
+- **Recent Activity Feed**: A dedicated view for quick access to the latest financial transactions.
+
+- **Data Portability**: Built-in reporting engine allowing users to download comprehensive financial data in Excel format.
+
+- **Adaptive UI/UX**: A fully responsive design ensuring a consistent experience across Desktop, Tablet, and Mobile devices.
+
+- **Streamlined Navigation**: Ergonomic sidebar interface providing rapid access to core modules (Dashboard, Income, Expenses).
+  
+- **Interactive Controls**: Intuitive UI with hover-state actions for quick and seamless record deletion.
+
+**Express backend repository**: https://github.com/rendznicoy/expense-tracker-backend
