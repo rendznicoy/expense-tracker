@@ -1,5 +1,6 @@
 import React from "react";
 import { LuTrendingUpDown } from "react-icons/lu";
+import CARD from "../../assets/loginChart.png";
 
 const AuthLayout = ({ children }) => {
   return (
@@ -25,8 +26,8 @@ const AuthLayout = ({ children }) => {
         </div>
 
         <img
-          src=""
-          className="w-64 lg:w-[90%] absolute bottom-10 shadow-lg shadow-cyan-400/15"
+          src={CARD}
+          className="w-64 lg:w-[90%] absolute bottom-10 shadow-lg shadow-cyan-400/15 rounded-[20px]"
         />
       </div>
     </div>
